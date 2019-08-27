@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44757ED3218A666600D0748F /* FormulasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44757ED2218A666600D0748F /* FormulasTableViewController.swift */; };
+		B4395EB1218A8C4F001B852F /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4395EB0218A8C4F001B852F /* Charts.framework */; };
+		B4395EB2218A8C4F001B852F /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4395EB0218A8C4F001B852F /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B4395EB5218A8C90001B852F /* GraficarParabolaVerticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4395EB4218A8C90001B852F /* GraficarParabolaVerticalViewController.swift */; };
+		B44550332193850A00117A64 /* GraficarHiperbolaVerticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44550322193850A00117A64 /* GraficarHiperbolaVerticalViewController.swift */; };
+		B4455038219393C100117A64 /* GraficarHiperbolaHorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4455037219393C100117A64 /* GraficarHiperbolaHorizontalViewController.swift */; };
+		B445503C2193A41700117A64 /* GraficarElipseVerticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445503B2193A41700117A64 /* GraficarElipseVerticalViewController.swift */; };
+		B445503E2193A42B00117A64 /* GraficarElipseHorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445503D2193A42B00117A64 /* GraficarElipseHorizontalViewController.swift */; };
+		B4530120216456990067B0AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453011F216456990067B0AE /* AppDelegate.swift */; };
+		B45301222164569A0067B0AE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45301212164569A0067B0AE /* FirstViewController.swift */; };
+		B45301242164569A0067B0AE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45301232164569A0067B0AE /* SecondViewController.swift */; };
+		B45301272164569A0067B0AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45301252164569A0067B0AE /* Main.storyboard */; };
+		B45301292164569B0067B0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45301282164569B0067B0AE /* Assets.xcassets */; };
+		B453012C2164569B0067B0AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B453012A2164569B0067B0AE /* LaunchScreen.storyboard */; };
+		B4758824219D11DC004DE333 /* HiperbolaD1InterpretaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B475881E219D11DB004DE333 /* HiperbolaD1InterpretaController.swift */; };
+		B4758825219D11DC004DE333 /* HiperbolaD3Interpreta.xib in Resources */ = {isa = PBXBuildFile; fileRef = B475881F219D11DB004DE333 /* HiperbolaD3Interpreta.xib */; };
+		B4758826219D11DC004DE333 /* HiperbolaD2InterpretaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4758820219D11DB004DE333 /* HiperbolaD2InterpretaController.swift */; };
+		B4758827219D11DC004DE333 /* HyperboleD3InterpretaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4758821219D11DB004DE333 /* HyperboleD3InterpretaController.swift */; };
+		B4758828219D11DC004DE333 /* HiperbolaD1Interpreta.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4758822219D11DB004DE333 /* HiperbolaD1Interpreta.xib */; };
+		B4758829219D11DC004DE333 /* HiperbolaD2Interpreta.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4758823219D11DC004DE333 /* HiperbolaD2Interpreta.xib */; };
+		B475882B219D314C004DE333 /* Launch Screen in Sources */ = {isa = PBXBuildFile; fileRef = B475882A219D314C004DE333 /* Launch Screen */; };
+		B495D6B12195193600FF4968 /* ElipseD1.xib in Resources */ = {isa = PBXBuildFile; fileRef = B495D6AE2195193600FF4968 /* ElipseD1.xib */; };
+		B495D6B321951E6300FF4968 /* ElipseD2.xib in Resources */ = {isa = PBXBuildFile; fileRef = B495D6B221951E6300FF4968 /* ElipseD2.xib */; };
+		B495D6B82195208200FF4968 /* ElipseD3.xib in Resources */ = {isa = PBXBuildFile; fileRef = B495D6B52195208200FF4968 /* ElipseD3.xib */; };
+		B495D6BE21953CD700FF4968 /* ElipseD1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495D6BD21953CD700FF4968 /* ElipseD1Controller.swift */; };
+		B495D6C02195470D00FF4968 /* ElipseD2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495D6BF2195470D00FF4968 /* ElipseD2Controller.swift */; };
+		B495D6C32195674F00FF4968 /* ElipseD3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495D6C22195674F00FF4968 /* ElipseD3Controller.swift */; };
+		B49EFA002198E5A7009EFEE9 /* ParabolaD1.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49EF9F42198E5A5009EFEE9 /* ParabolaD1.xib */; };
+		B49EFA012198E5A7009EFEE9 /* ParabolaD2Interpreta.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49EF9F52198E5A6009EFEE9 /* ParabolaD2Interpreta.xib */; };
+		B49EFA022198E5A7009EFEE9 /* ParabolaD1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49EF9F62198E5A6009EFEE9 /* ParabolaD1Controller.swift */; };
+		B49EFA032198E5A7009EFEE9 /* ParabolaD3Interpreta.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49EF9F72198E5A6009EFEE9 /* ParabolaD3Interpreta.xib */; };
+		B49EFA042198E5A7009EFEE9 /* ParabolaD3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49EF9F82198E5A6009EFEE9 /* ParabolaD3Controller.swift */; };
+		B49EFA052198E5A7009EFEE9 /* ParabolaD3.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49EF9F92198E5A6009EFEE9 /* ParabolaD3.xib */; };
+		B49EFA062198E5A7009EFEE9 /* ParabolaD2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49EF9FA2198E5A6009EFEE9 /* ParabolaD2Controller.swift */; };
+		B49EFA072198E5A7009EFEE9 /* ParabolaD2.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49EF9FB2198E5A6009EFEE9 /* ParabolaD2.xib */; };
+		B49EFA082198E5A7009EFEE9 /* ParabolaD3InterpretaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49EF9FC2198E5A6009EFEE9 /* ParabolaD3InterpretaController.swift */; };
+		B49EFA092198E5A7009EFEE9 /* ParabolaD2InterpretaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49EF9FD2198E5A6009EFEE9 /* ParabolaD2InterpretaController.swift */; };
+		B49EFA0A2198E5A7009EFEE9 /* ParabolaD1Interpreta.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49EF9FE2198E5A7009EFEE9 /* ParabolaD1Interpreta.xib */; };
+		B49EFA0B2198E5A7009EFEE9 /* ParabolaD1InterpretaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49EF9FF2198E5A7009EFEE9 /* ParabolaD1InterpretaController.swift */; };
+		B49EFA0D2199F084009EFEE9 /* ElipseD3Interpreta.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49EFA0C2199F084009EFEE9 /* ElipseD3Interpreta.xib */; };
+		B49EFA0F2199F10D009EFEE9 /* ElipseD3InterpretaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49EFA0E2199F10D009EFEE9 /* ElipseD3InterpretaController.swift */; };
+		B4B8C5D221963068002AD512 /* ElipseD1Interpreta.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B8C5CF21963068002AD512 /* ElipseD1Interpreta.xib */; };
+		B4B8C5D42196310F002AD512 /* ElipseD1InterpretaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8C5D32196310F002AD512 /* ElipseD1InterpretaController.swift */; };
+		B4B8C5D8219670DB002AD512 /* ElipseD2Interpreta.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B8C5D7219670DB002AD512 /* ElipseD2Interpreta.xib */; };
+		B4B8C5DA219670EC002AD512 /* ElipseD2InterpretaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8C5D9219670EC002AD512 /* ElipseD2InterpretaController.swift */; };
+		B4B8C5DC2197A841002AD512 /* PacticaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8C5DB2197A841002AD512 /* PacticaViewController.swift */; };
+		B4B8C5DE2197A8E5002AD512 /* IdentificaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8C5DD2197A8E5002AD512 /* IdentificaViewController.swift */; };
+		B4B8C5E02197A917002AD512 /* InterpretaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8C5DF2197A917002AD512 /* InterpretaViewController.swift */; };
+		B4B8C5E52197AAA3002AD512 /* chalkboard.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B4B8C5E22197AAA3002AD512 /* chalkboard.mp4 */; };
+		B4B8C5F22197ABAB002AD512 /* CirculoD2.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B8C5E62197ABA9002AD512 /* CirculoD2.xib */; };
+		B4B8C5F32197ABAB002AD512 /* CirculoD3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8C5E72197ABAA002AD512 /* CirculoD3Controller.swift */; };
+		B4B8C5F42197ABAB002AD512 /* CirculoD2Interpreta.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8C5E82197ABAA002AD512 /* CirculoD2Interpreta.swift */; };
+		B4B8C5F52197ABAB002AD512 /* CirculoD3InterpretaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8C5E92197ABAA002AD512 /* CirculoD3InterpretaController.swift */; };
+		B4B8C5F62197ABAB002AD512 /* CirculoD1.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B8C5EA2197ABAA002AD512 /* CirculoD1.xib */; };
+		B4B8C5F72197ABAB002AD512 /* CirculoD1InterpretaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8C5EB2197ABAA002AD512 /* CirculoD1InterpretaController.swift */; };
+		B4B8C5F82197ABAB002AD512 /* CirculoD2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8C5EC2197ABAA002AD512 /* CirculoD2Controller.swift */; };
+		B4B8C5F92197ABAB002AD512 /* CirculoD2Interpreta.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B8C5ED2197ABAA002AD512 /* CirculoD2Interpreta.xib */; };
+		B4B8C5FA2197ABAB002AD512 /* CirculoD3.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B8C5EE2197ABAA002AD512 /* CirculoD3.xib */; };
+		B4B8C5FB2197ABAB002AD512 /* CirculoD3Interpreta.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B8C5EF2197ABAA002AD512 /* CirculoD3Interpreta.xib */; };
+		B4B8C5FC2197ABAB002AD512 /* CirculoD1Interpreta.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B8C5F02197ABAA002AD512 /* CirculoD1Interpreta.xib */; };
+		B4B8C5FD2197ABAB002AD512 /* CirculoD1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8C5F12197ABAB002AD512 /* CirculoD1Controller.swift */; };
+		B4B8C6042197ABCF002AD512 /* HyperboleD1.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B8C5FE2197ABCE002AD512 /* HyperboleD1.xib */; };
+		B4B8C6062197ABCF002AD512 /* HyperboleD2.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B8C6002197ABCE002AD512 /* HyperboleD2.xib */; };
+		B4B8C6072197ABCF002AD512 /* HyperboleD1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8C6012197ABCE002AD512 /* HyperboleD1Controller.swift */; };
+		B4B8C6082197ABCF002AD512 /* HyperboleD2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8C6022197ABCE002AD512 /* HyperboleD2Controller.swift */; };
+		B4B8C6242197B23D002AD512 /* HyperboleD3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8C6222197B23D002AD512 /* HyperboleD3Controller.swift */; };
+		B4B8C6252197B23D002AD512 /* HyperboleD3.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B8C6232197B23D002AD512 /* HyperboleD3.xib */; };
+		B4D50B28219251E2002B45ED /* EscogerGraficarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D50B27219251E2002B45ED /* EscogerGraficarViewController.swift */; };
+		B4D50B2C21925C31002B45ED /* GraficarParabolaHorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D50B2B21925C31002B45ED /* GraficarParabolaHorizontalViewController.swift */; };
+		B4D50B2E21927521002B45ED /* GraficarCirculoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D50B2D21927521002B45ED /* GraficarCirculoViewController.swift */; };
+		B4EFBF112177E0A70042C693 /* FormulaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EFBF102177E0A70042C693 /* FormulaViewController.swift */; };
+		B4EFBF132177E5630042C693 /* CreadoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EFBF122177E5630042C693 /* CreadoresViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B421104B218AC2050071ED09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4395EA7218A8BA7001B852F /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		B421104D218AC2050071ED09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4395EA7218A8BA7001B852F /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B4395EB3218A8C4F001B852F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B4395EB2218A8C4F001B852F /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		44757ED2218A666600D0748F /* FormulasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulasTableViewController.swift; sourceTree = "<group>"; };
+		B4395EA7218A8BA7001B852F /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		B4395EB0218A8C4F001B852F /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4395EB4218A8C90001B852F /* GraficarParabolaVerticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficarParabolaVerticalViewController.swift; sourceTree = "<group>"; };
+		B44550322193850A00117A64 /* GraficarHiperbolaVerticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficarHiperbolaVerticalViewController.swift; sourceTree = "<group>"; };
+		B4455037219393C100117A64 /* GraficarHiperbolaHorizontalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficarHiperbolaHorizontalViewController.swift; sourceTree = "<group>"; };
+		B445503B2193A41700117A64 /* GraficarElipseVerticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficarElipseVerticalViewController.swift; sourceTree = "<group>"; };
+		B445503D2193A42B00117A64 /* GraficarElipseHorizontalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficarElipseHorizontalViewController.swift; sourceTree = "<group>"; };
+		B453011C216456990067B0AE /* Matemáticas Prepanet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matemáticas Prepanet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B453011F216456990067B0AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B45301212164569A0067B0AE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B45301232164569A0067B0AE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B45301262164569A0067B0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B45301282164569B0067B0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B453012B2164569B0067B0AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B453012D2164569B0067B0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B475881E219D11DB004DE333 /* HiperbolaD1InterpretaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiperbolaD1InterpretaController.swift; sourceTree = "<group>"; };
+		B475881F219D11DB004DE333 /* HiperbolaD3Interpreta.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HiperbolaD3Interpreta.xib; sourceTree = "<group>"; };
+		B4758820219D11DB004DE333 /* HiperbolaD2InterpretaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiperbolaD2InterpretaController.swift; sourceTree = "<group>"; };
+		B4758821219D11DB004DE333 /* HyperboleD3InterpretaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HyperboleD3InterpretaController.swift; sourceTree = "<group>"; };
+		B4758822219D11DB004DE333 /* HiperbolaD1Interpreta.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HiperbolaD1Interpreta.xib; sourceTree = "<group>"; };
+		B4758823219D11DC004DE333 /* HiperbolaD2Interpreta.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HiperbolaD2Interpreta.xib; sourceTree = "<group>"; };
+		B475882A219D314C004DE333 /* Launch Screen */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Launch Screen"; sourceTree = "<group>"; };
+		B495D6AE2195193600FF4968 /* ElipseD1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElipseD1.xib; sourceTree = "<group>"; };
+		B495D6B221951E6300FF4968 /* ElipseD2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElipseD2.xib; sourceTree = "<group>"; };
+		B495D6B52195208200FF4968 /* ElipseD3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElipseD3.xib; sourceTree = "<group>"; };
+		B495D6BD21953CD700FF4968 /* ElipseD1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElipseD1Controller.swift; sourceTree = "<group>"; };
+		B495D6BF2195470D00FF4968 /* ElipseD2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElipseD2Controller.swift; sourceTree = "<group>"; };
+		B495D6C22195674F00FF4968 /* ElipseD3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElipseD3Controller.swift; sourceTree = "<group>"; };
+		B49EF9F42198E5A5009EFEE9 /* ParabolaD1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParabolaD1.xib; sourceTree = "<group>"; };
+		B49EF9F52198E5A6009EFEE9 /* ParabolaD2Interpreta.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParabolaD2Interpreta.xib; sourceTree = "<group>"; };
+		B49EF9F62198E5A6009EFEE9 /* ParabolaD1Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParabolaD1Controller.swift; sourceTree = "<group>"; };
+		B49EF9F72198E5A6009EFEE9 /* ParabolaD3Interpreta.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParabolaD3Interpreta.xib; sourceTree = "<group>"; };
+		B49EF9F82198E5A6009EFEE9 /* ParabolaD3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParabolaD3Controller.swift; sourceTree = "<group>"; };
+		B49EF9F92198E5A6009EFEE9 /* ParabolaD3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParabolaD3.xib; sourceTree = "<group>"; };
+		B49EF9FA2198E5A6009EFEE9 /* ParabolaD2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParabolaD2Controller.swift; sourceTree = "<group>"; };
+		B49EF9FB2198E5A6009EFEE9 /* ParabolaD2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParabolaD2.xib; sourceTree = "<group>"; };
+		B49EF9FC2198E5A6009EFEE9 /* ParabolaD3InterpretaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParabolaD3InterpretaController.swift; sourceTree = "<group>"; };
+		B49EF9FD2198E5A6009EFEE9 /* ParabolaD2InterpretaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParabolaD2InterpretaController.swift; sourceTree = "<group>"; };
+		B49EF9FE2198E5A7009EFEE9 /* ParabolaD1Interpreta.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParabolaD1Interpreta.xib; sourceTree = "<group>"; };
+		B49EF9FF2198E5A7009EFEE9 /* ParabolaD1InterpretaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParabolaD1InterpretaController.swift; sourceTree = "<group>"; };
+		B49EFA0C2199F084009EFEE9 /* ElipseD3Interpreta.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElipseD3Interpreta.xib; sourceTree = "<group>"; };
+		B49EFA0E2199F10D009EFEE9 /* ElipseD3InterpretaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElipseD3InterpretaController.swift; sourceTree = "<group>"; };
+		B4B8C5CF21963068002AD512 /* ElipseD1Interpreta.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElipseD1Interpreta.xib; sourceTree = "<group>"; };
+		B4B8C5D32196310F002AD512 /* ElipseD1InterpretaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElipseD1InterpretaController.swift; sourceTree = "<group>"; };
+		B4B8C5D7219670DB002AD512 /* ElipseD2Interpreta.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElipseD2Interpreta.xib; sourceTree = "<group>"; };
+		B4B8C5D9219670EC002AD512 /* ElipseD2InterpretaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElipseD2InterpretaController.swift; sourceTree = "<group>"; };
+		B4B8C5DB2197A841002AD512 /* PacticaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacticaViewController.swift; sourceTree = "<group>"; };
+		B4B8C5DD2197A8E5002AD512 /* IdentificaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentificaViewController.swift; sourceTree = "<group>"; };
+		B4B8C5DF2197A917002AD512 /* InterpretaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpretaViewController.swift; sourceTree = "<group>"; };
+		B4B8C5E22197AAA3002AD512 /* chalkboard.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = chalkboard.mp4; sourceTree = "<group>"; };
+		B4B8C5E62197ABA9002AD512 /* CirculoD2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CirculoD2.xib; sourceTree = "<group>"; };
+		B4B8C5E72197ABAA002AD512 /* CirculoD3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirculoD3Controller.swift; sourceTree = "<group>"; };
+		B4B8C5E82197ABAA002AD512 /* CirculoD2Interpreta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirculoD2Interpreta.swift; sourceTree = "<group>"; };
+		B4B8C5E92197ABAA002AD512 /* CirculoD3InterpretaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirculoD3InterpretaController.swift; sourceTree = "<group>"; };
+		B4B8C5EA2197ABAA002AD512 /* CirculoD1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CirculoD1.xib; sourceTree = "<group>"; };
+		B4B8C5EB2197ABAA002AD512 /* CirculoD1InterpretaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirculoD1InterpretaController.swift; sourceTree = "<group>"; };
+		B4B8C5EC2197ABAA002AD512 /* CirculoD2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirculoD2Controller.swift; sourceTree = "<group>"; };
+		B4B8C5ED2197ABAA002AD512 /* CirculoD2Interpreta.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CirculoD2Interpreta.xib; sourceTree = "<group>"; };
+		B4B8C5EE2197ABAA002AD512 /* CirculoD3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CirculoD3.xib; sourceTree = "<group>"; };
+		B4B8C5EF2197ABAA002AD512 /* CirculoD3Interpreta.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CirculoD3Interpreta.xib; sourceTree = "<group>"; };
+		B4B8C5F02197ABAA002AD512 /* CirculoD1Interpreta.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CirculoD1Interpreta.xib; sourceTree = "<group>"; };
+		B4B8C5F12197ABAB002AD512 /* CirculoD1Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirculoD1Controller.swift; sourceTree = "<group>"; };
+		B4B8C5FE2197ABCE002AD512 /* HyperboleD1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HyperboleD1.xib; sourceTree = "<group>"; };
+		B4B8C6002197ABCE002AD512 /* HyperboleD2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HyperboleD2.xib; sourceTree = "<group>"; };
+		B4B8C6012197ABCE002AD512 /* HyperboleD1Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HyperboleD1Controller.swift; sourceTree = "<group>"; };
+		B4B8C6022197ABCE002AD512 /* HyperboleD2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HyperboleD2Controller.swift; sourceTree = "<group>"; };
+		B4B8C6222197B23D002AD512 /* HyperboleD3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HyperboleD3Controller.swift; sourceTree = "<group>"; };
+		B4B8C6232197B23D002AD512 /* HyperboleD3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HyperboleD3.xib; sourceTree = "<group>"; };
+		B4D50B27219251E2002B45ED /* EscogerGraficarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscogerGraficarViewController.swift; sourceTree = "<group>"; };
+		B4D50B2B21925C31002B45ED /* GraficarParabolaHorizontalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficarParabolaHorizontalViewController.swift; sourceTree = "<group>"; };
+		B4D50B2D21927521002B45ED /* GraficarCirculoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficarCirculoViewController.swift; sourceTree = "<group>"; };
+		B4EFBF102177E0A70042C693 /* FormulaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaViewController.swift; sourceTree = "<group>"; };
+		B4EFBF122177E5630042C693 /* CreadoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreadoresViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4530119216456990067B0AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4395EB1218A8C4F001B852F /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4211047218AC1FE0071ED09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B421104C218AC2050071ED09 /* Charts.framework */,
+				B421104E218AC2050071ED09 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4530113216456990067B0AE = {
+			isa = PBXGroup;
+			children = (
+				B4395EB0218A8C4F001B852F /* Charts.framework */,
+				B453011E216456990067B0AE /* Matemáticas Prepanet */,
+				B453011D216456990067B0AE /* Products */,
+				B4395EA7218A8BA7001B852F /* Charts.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		B453011D216456990067B0AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B453011C216456990067B0AE /* Matemáticas Prepanet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B453011E216456990067B0AE /* Matemáticas Prepanet */ = {
+			isa = PBXGroup;
+			children = (
+				B453011F216456990067B0AE /* AppDelegate.swift */,
+				B4B8C5E22197AAA3002AD512 /* chalkboard.mp4 */,
+				B45301212164569A0067B0AE /* FirstViewController.swift */,
+				B45301232164569A0067B0AE /* SecondViewController.swift */,
+				B45301252164569A0067B0AE /* Main.storyboard */,
+				B4B8C5DF2197A917002AD512 /* InterpretaViewController.swift */,
+				B4B8C5DD2197A8E5002AD512 /* IdentificaViewController.swift */,
+				B4B8C5DB2197A841002AD512 /* PacticaViewController.swift */,
+				B445503D2193A42B00117A64 /* GraficarElipseHorizontalViewController.swift */,
+				B445503B2193A41700117A64 /* GraficarElipseVerticalViewController.swift */,
+				B4455037219393C100117A64 /* GraficarHiperbolaHorizontalViewController.swift */,
+				B44550322193850A00117A64 /* GraficarHiperbolaVerticalViewController.swift */,
+				B4D50B2D21927521002B45ED /* GraficarCirculoViewController.swift */,
+				B4D50B2B21925C31002B45ED /* GraficarParabolaHorizontalViewController.swift */,
+				B49EF9F42198E5A5009EFEE9 /* ParabolaD1.xib */,
+				B49EF9F62198E5A6009EFEE9 /* ParabolaD1Controller.swift */,
+				B49EF9FE2198E5A7009EFEE9 /* ParabolaD1Interpreta.xib */,
+				B49EF9FF2198E5A7009EFEE9 /* ParabolaD1InterpretaController.swift */,
+				B49EF9FB2198E5A6009EFEE9 /* ParabolaD2.xib */,
+				B49EF9FA2198E5A6009EFEE9 /* ParabolaD2Controller.swift */,
+				B49EF9F52198E5A6009EFEE9 /* ParabolaD2Interpreta.xib */,
+				B49EF9FD2198E5A6009EFEE9 /* ParabolaD2InterpretaController.swift */,
+				B49EF9F92198E5A6009EFEE9 /* ParabolaD3.xib */,
+				B49EF9F82198E5A6009EFEE9 /* ParabolaD3Controller.swift */,
+				B49EF9F72198E5A6009EFEE9 /* ParabolaD3Interpreta.xib */,
+				B49EF9FC2198E5A6009EFEE9 /* ParabolaD3InterpretaController.swift */,
+				B4B8C5EA2197ABAA002AD512 /* CirculoD1.xib */,
+				B4B8C5F12197ABAB002AD512 /* CirculoD1Controller.swift */,
+				B4B8C5F02197ABAA002AD512 /* CirculoD1Interpreta.xib */,
+				B4B8C5EB2197ABAA002AD512 /* CirculoD1InterpretaController.swift */,
+				B4B8C5E62197ABA9002AD512 /* CirculoD2.xib */,
+				B4B8C5EC2197ABAA002AD512 /* CirculoD2Controller.swift */,
+				B4B8C5E82197ABAA002AD512 /* CirculoD2Interpreta.swift */,
+				B4B8C5ED2197ABAA002AD512 /* CirculoD2Interpreta.xib */,
+				B4B8C5EE2197ABAA002AD512 /* CirculoD3.xib */,
+				B4B8C5E72197ABAA002AD512 /* CirculoD3Controller.swift */,
+				B4B8C5EF2197ABAA002AD512 /* CirculoD3Interpreta.xib */,
+				B4B8C5E92197ABAA002AD512 /* CirculoD3InterpretaController.swift */,
+				B495D6AE2195193600FF4968 /* ElipseD1.xib */,
+				B495D6B221951E6300FF4968 /* ElipseD2.xib */,
+				B495D6B52195208200FF4968 /* ElipseD3.xib */,
+				B495D6BD21953CD700FF4968 /* ElipseD1Controller.swift */,
+				B495D6BF2195470D00FF4968 /* ElipseD2Controller.swift */,
+				B495D6C22195674F00FF4968 /* ElipseD3Controller.swift */,
+				B4B8C5CF21963068002AD512 /* ElipseD1Interpreta.xib */,
+				B4B8C5D32196310F002AD512 /* ElipseD1InterpretaController.swift */,
+				B4B8C5D7219670DB002AD512 /* ElipseD2Interpreta.xib */,
+				B4B8C5D9219670EC002AD512 /* ElipseD2InterpretaController.swift */,
+				B49EFA0C2199F084009EFEE9 /* ElipseD3Interpreta.xib */,
+				B49EFA0E2199F10D009EFEE9 /* ElipseD3InterpretaController.swift */,
+				B4B8C5FE2197ABCE002AD512 /* HyperboleD1.xib */,
+				B4B8C6012197ABCE002AD512 /* HyperboleD1Controller.swift */,
+				B4B8C6002197ABCE002AD512 /* HyperboleD2.xib */,
+				B4B8C6022197ABCE002AD512 /* HyperboleD2Controller.swift */,
+				B4B8C6232197B23D002AD512 /* HyperboleD3.xib */,
+				B4B8C6222197B23D002AD512 /* HyperboleD3Controller.swift */,
+				B4758822219D11DB004DE333 /* HiperbolaD1Interpreta.xib */,
+				B475881E219D11DB004DE333 /* HiperbolaD1InterpretaController.swift */,
+				B4758823219D11DC004DE333 /* HiperbolaD2Interpreta.xib */,
+				B4758820219D11DB004DE333 /* HiperbolaD2InterpretaController.swift */,
+				B475881F219D11DB004DE333 /* HiperbolaD3Interpreta.xib */,
+				B4758821219D11DB004DE333 /* HyperboleD3InterpretaController.swift */,
+				B4D50B27219251E2002B45ED /* EscogerGraficarViewController.swift */,
+				B4395EB4218A8C90001B852F /* GraficarParabolaVerticalViewController.swift */,
+				B4EFBF122177E5630042C693 /* CreadoresViewController.swift */,
+				B4EFBF102177E0A70042C693 /* FormulaViewController.swift */,
+				44757ED2218A666600D0748F /* FormulasTableViewController.swift */,
+				B45301282164569B0067B0AE /* Assets.xcassets */,
+				B453012A2164569B0067B0AE /* LaunchScreen.storyboard */,
+				B475882A219D314C004DE333 /* Launch Screen */,
+				B453012D2164569B0067B0AE /* Info.plist */,
+			);
+			path = "Matemáticas Prepanet";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B453011B216456990067B0AE /* Matemáticas Prepanet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B45301302164569B0067B0AE /* Build configuration list for PBXNativeTarget "Matemáticas Prepanet" */;
+			buildPhases = (
+				B4530118216456990067B0AE /* Sources */,
+				B4530119216456990067B0AE /* Frameworks */,
+				B453011A216456990067B0AE /* Resources */,
+				B4395EB3218A8C4F001B852F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Matemáticas Prepanet";
+			productName = "Matemáticas Prepanet";
+			productReference = B453011C216456990067B0AE /* Matemáticas Prepanet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4530114216456990067B0AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Carlos Fernando Garza Martinez";
+				TargetAttributes = {
+					B453011B216456990067B0AE = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = B4530117216456990067B0AE /* Build configuration list for PBXProject "Matemáticas Prepanet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4530113216456990067B0AE;
+			productRefGroup = B453011D216456990067B0AE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B4211047218AC1FE0071ED09 /* Products */;
+					ProjectRef = B4395EA7218A8BA7001B852F /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B453011B216456990067B0AE /* Matemáticas Prepanet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B421104C218AC2050071ED09 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = B421104B218AC2050071ED09 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B421104E218AC2050071ED09 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = B421104D218AC2050071ED09 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B453011A216456990067B0AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B8C5E52197AAA3002AD512 /* chalkboard.mp4 in Resources */,
+				B49EFA0A2198E5A7009EFEE9 /* ParabolaD1Interpreta.xib in Resources */,
+				B49EFA052198E5A7009EFEE9 /* ParabolaD3.xib in Resources */,
+				B495D6B12195193600FF4968 /* ElipseD1.xib in Resources */,
+				B49EFA002198E5A7009EFEE9 /* ParabolaD1.xib in Resources */,
+				B4758828219D11DC004DE333 /* HiperbolaD1Interpreta.xib in Resources */,
+				B495D6B321951E6300FF4968 /* ElipseD2.xib in Resources */,
+				B4B8C5D8219670DB002AD512 /* ElipseD2Interpreta.xib in Resources */,
+				B4B8C5FA2197ABAB002AD512 /* CirculoD3.xib in Resources */,
+				B4B8C5F62197ABAB002AD512 /* CirculoD1.xib in Resources */,
+				B4B8C5F22197ABAB002AD512 /* CirculoD2.xib in Resources */,
+				B49EFA0D2199F084009EFEE9 /* ElipseD3Interpreta.xib in Resources */,
+				B49EFA032198E5A7009EFEE9 /* ParabolaD3Interpreta.xib in Resources */,
+				B4B8C5F92197ABAB002AD512 /* CirculoD2Interpreta.xib in Resources */,
+				B4B8C6062197ABCF002AD512 /* HyperboleD2.xib in Resources */,
+				B49EFA012198E5A7009EFEE9 /* ParabolaD2Interpreta.xib in Resources */,
+				B495D6B82195208200FF4968 /* ElipseD3.xib in Resources */,
+				B4B8C6252197B23D002AD512 /* HyperboleD3.xib in Resources */,
+				B4B8C5D221963068002AD512 /* ElipseD1Interpreta.xib in Resources */,
+				B453012C2164569B0067B0AE /* LaunchScreen.storyboard in Resources */,
+				B4758829219D11DC004DE333 /* HiperbolaD2Interpreta.xib in Resources */,
+				B4B8C5FC2197ABAB002AD512 /* CirculoD1Interpreta.xib in Resources */,
+				B4B8C6042197ABCF002AD512 /* HyperboleD1.xib in Resources */,
+				B45301292164569B0067B0AE /* Assets.xcassets in Resources */,
+				B4B8C5FB2197ABAB002AD512 /* CirculoD3Interpreta.xib in Resources */,
+				B45301272164569A0067B0AE /* Main.storyboard in Resources */,
+				B49EFA072198E5A7009EFEE9 /* ParabolaD2.xib in Resources */,
+				B4758825219D11DC004DE333 /* HiperbolaD3Interpreta.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4530118216456990067B0AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45301242164569A0067B0AE /* SecondViewController.swift in Sources */,
+				B4B8C5F42197ABAB002AD512 /* CirculoD2Interpreta.swift in Sources */,
+				B4B8C5FD2197ABAB002AD512 /* CirculoD1Controller.swift in Sources */,
+				B4530120216456990067B0AE /* AppDelegate.swift in Sources */,
+				B4EFBF132177E5630042C693 /* CreadoresViewController.swift in Sources */,
+				B49EFA062198E5A7009EFEE9 /* ParabolaD2Controller.swift in Sources */,
+				B445503E2193A42B00117A64 /* GraficarElipseHorizontalViewController.swift in Sources */,
+				B4B8C5D42196310F002AD512 /* ElipseD1InterpretaController.swift in Sources */,
+				B4758824219D11DC004DE333 /* HiperbolaD1InterpretaController.swift in Sources */,
+				B4D50B2E21927521002B45ED /* GraficarCirculoViewController.swift in Sources */,
+				B45301222164569A0067B0AE /* FirstViewController.swift in Sources */,
+				B4B8C5DE2197A8E5002AD512 /* IdentificaViewController.swift in Sources */,
+				B4B8C5F82197ABAB002AD512 /* CirculoD2Controller.swift in Sources */,
+				B49EFA082198E5A7009EFEE9 /* ParabolaD3InterpretaController.swift in Sources */,
+				B4B8C5DA219670EC002AD512 /* ElipseD2InterpretaController.swift in Sources */,
+				B49EFA042198E5A7009EFEE9 /* ParabolaD3Controller.swift in Sources */,
+				B4D50B2C21925C31002B45ED /* GraficarParabolaHorizontalViewController.swift in Sources */,
+				B4B8C6082197ABCF002AD512 /* HyperboleD2Controller.swift in Sources */,
+				B4D50B28219251E2002B45ED /* EscogerGraficarViewController.swift in Sources */,
+				44757ED3218A666600D0748F /* FormulasTableViewController.swift in Sources */,
+				B49EFA022198E5A7009EFEE9 /* ParabolaD1Controller.swift in Sources */,
+				B495D6C02195470D00FF4968 /* ElipseD2Controller.swift in Sources */,
+				B49EFA092198E5A7009EFEE9 /* ParabolaD2InterpretaController.swift in Sources */,
+				B4B8C6072197ABCF002AD512 /* HyperboleD1Controller.swift in Sources */,
+				B445503C2193A41700117A64 /* GraficarElipseVerticalViewController.swift in Sources */,
+				B49EFA0F2199F10D009EFEE9 /* ElipseD3InterpretaController.swift in Sources */,
+				B4455038219393C100117A64 /* GraficarHiperbolaHorizontalViewController.swift in Sources */,
+				B4B8C5F32197ABAB002AD512 /* CirculoD3Controller.swift in Sources */,
+				B44550332193850A00117A64 /* GraficarHiperbolaVerticalViewController.swift in Sources */,
+				B4758827219D11DC004DE333 /* HyperboleD3InterpretaController.swift in Sources */,
+				B4B8C5F72197ABAB002AD512 /* CirculoD1InterpretaController.swift in Sources */,
+				B4EFBF112177E0A70042C693 /* FormulaViewController.swift in Sources */,
+				B495D6C32195674F00FF4968 /* ElipseD3Controller.swift in Sources */,
+				B495D6BE21953CD700FF4968 /* ElipseD1Controller.swift in Sources */,
+				B475882B219D314C004DE333 /* Launch Screen in Sources */,
+				B49EFA0B2198E5A7009EFEE9 /* ParabolaD1InterpretaController.swift in Sources */,
+				B4B8C6242197B23D002AD512 /* HyperboleD3Controller.swift in Sources */,
+				B4B8C5DC2197A841002AD512 /* PacticaViewController.swift in Sources */,
+				B4B8C5E02197A917002AD512 /* InterpretaViewController.swift in Sources */,
+				B4B8C5F52197ABAB002AD512 /* CirculoD3InterpretaController.swift in Sources */,
+				B4758826219D11DC004DE333 /* HiperbolaD2InterpretaController.swift in Sources */,
+				B4395EB5218A8C90001B852F /* GraficarParabolaVerticalViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B45301252164569A0067B0AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B45301262164569A0067B0AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B453012A2164569B0067B0AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B453012B2164569B0067B0AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B453012E2164569B0067B0AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B453012F2164569B0067B0AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B45301312164569B0067B0AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6WW69QFGQ;
+				INFOPLIST_FILE = "Matemáticas Prepanet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.itesmalumnos.Matema-ticas-Prepanet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B45301322164569B0067B0AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6WW69QFGQ;
+				INFOPLIST_FILE = "Matemáticas Prepanet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.itesmalumnos.Matema-ticas-Prepanet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4530117216456990067B0AE /* Build configuration list for PBXProject "Matemáticas Prepanet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B453012E2164569B0067B0AE /* Debug */,
+				B453012F2164569B0067B0AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B45301302164569B0067B0AE /* Build configuration list for PBXNativeTarget "Matemáticas Prepanet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45301312164569B0067B0AE /* Debug */,
+				B45301322164569B0067B0AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4530114216456990067B0AE /* Project object */;
+}
